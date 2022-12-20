@@ -1,0 +1,80 @@
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\bin\Debug\WpfBank_App.exe.config
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\bin\Debug\WpfBank_App.exe
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\bin\Debug\WpfBank_App.pdb
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\bin\Debug\MaterialDesignColors.dll
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\bin\Debug\MaterialDesignColors.pdb
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\obj\Debug\WpfBank_App.csproj.AssemblyReference.cache
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\obj\Debug\App.g.cs
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\obj\Debug\WpfBank_App_MarkupCompile.cache
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\obj\Debug\WpfBank_App_MarkupCompile.lref
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\obj\Debug\App.baml
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\obj\Debug\WpfBank_App.g.resources
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\obj\Debug\WpfBank_App.Properties.Resources.resources
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\obj\Debug\WpfBank_App.csproj.GenerateResource.cache
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\obj\Debug\WpfBank_App.csproj.CoreCompileInputs.cache
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\obj\Debug\WpfBank_App.csproj.CopyComplete
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\obj\Debug\WpfBank_App.exe
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\obj\Debug\WpfBank_App.pdb
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\bin\Debug\Newtonsoft.Json.dll
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\bin\Debug\Newtonsoft.Json.xml
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\obj\Debug\Main Window.g.cs
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\obj\Debug\Main Window.baml
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\obj\Debug\Manager Adding Clients Data.g.cs
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\obj\Debug\Manager Changing Clients Data.g.cs
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\obj\Debug\Consultant Changing Clients Data.g.cs
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\obj\Debug\Viewing Accounts Data.g.cs
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\obj\Debug\Opening or closing an account.g.cs
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\obj\Debug\Manager Adding Clients Data.baml
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\obj\Debug\Manager Changing Clients Data.baml
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\obj\Debug\Consultant Changing Clients Data.baml
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\obj\Debug\Viewing Accounts Data.baml
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\obj\Debug\Opening or closing an account.baml
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\obj\Debug\Replenishment O rWithdrawal Of Money.g.cs
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\obj\Debug\MoneyTransfers.g.cs
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\obj\Debug\Replenishment O rWithdrawal Of Money.baml
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\obj\Debug\MoneyTransfers.baml
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\bin\Debug\ClassLibrary1.dll
+C:\Users\alexm\OneDrive\Рабочий стол\Санёк\SkillBox\C#\ДЗ\12.6 ООп ч2\WpfBank_App\WpfBank_App\bin\Debug\ClassLibrary1.pdb
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\bin\Debug\WpfBank_App.exe.config
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\bin\Debug\WpfBank_App.exe
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\bin\Debug\WpfBank_App.pdb
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\bin\Debug\ClassLibrary1.dll
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\bin\Debug\MaterialDesignColors.dll
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\bin\Debug\Newtonsoft.Json.dll
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\bin\Debug\ClassLibrary1.pdb
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\bin\Debug\MaterialDesignColors.pdb
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\bin\Debug\Newtonsoft.Json.xml
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\obj\Debug\WpfBank_App.csproj.AssemblyReference.cache
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\obj\Debug\Manager Adding Clients Data.g.cs
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\obj\Debug\Manager Changing Clients Data.g.cs
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\obj\Debug\Main Window.g.cs
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\obj\Debug\Consultant Changing Clients Data.g.cs
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\obj\Debug\MoneyTransfers.g.cs
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\obj\Debug\Viewing Accounts Data.g.cs
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\obj\Debug\Opening or closing an account.g.cs
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\obj\Debug\Replenishment O rWithdrawal Of Money.g.cs
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\obj\Debug\App.g.cs
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\obj\Debug\WpfBank_App_MarkupCompile.cache
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\obj\Debug\WpfBank_App_MarkupCompile.lref
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\obj\Debug\App.baml
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\obj\Debug\Manager Adding Clients Data.baml
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\obj\Debug\Manager Changing Clients Data.baml
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\obj\Debug\Main Window.baml
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\obj\Debug\Consultant Changing Clients Data.baml
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\obj\Debug\MoneyTransfers.baml
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\obj\Debug\Viewing Accounts Data.baml
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\obj\Debug\Opening or closing an account.baml
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\obj\Debug\Replenishment O rWithdrawal Of Money.baml
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\obj\Debug\WpfBank_App.g.resources
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\obj\Debug\WpfBank_App.Properties.Resources.resources
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\obj\Debug\WpfBank_App.csproj.GenerateResource.cache
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\obj\Debug\WpfBank_App.csproj.CoreCompileInputs.cache
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\obj\Debug\WpfBank_App.csproj.CopyComplete
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\obj\Debug\WpfBank_App.exe
+C:\Users\alexm\OneDrive\Рабочий стол\ДЗ\12 - 15 ООп ч2, 3\WpfBank_App\WpfBank_App\obj\Debug\WpfBank_App.pdb

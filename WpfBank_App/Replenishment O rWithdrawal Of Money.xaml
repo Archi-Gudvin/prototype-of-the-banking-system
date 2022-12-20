@@ -1,0 +1,270 @@
+﻿<Window x:Class="WpfBank_App.ReplenishmentOrWithdrawalOfMoney"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfBank_App"
+        mc:Ignorable="d"
+        Title="Replenishment or withdrawal of money"
+        Height="450" Width="800"
+        MinHeight="450" MinWidth="800"
+        MaxHeight="450" MaxWidth="800">
+    <Grid>
+        <TabControl HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,5,0,0" Width="787">
+            <!--Окно Account refill-->
+            <TabItem Width="174"
+                     Height="40"
+                     Header="Account refill">
+                <Grid>
+                    <!--ЛистБокс для вывода существующих клиентов-->
+                    <ListBox x:Name="ListClients_replenishment" 
+                            HorizontalAlignment="Left"
+                            Height="320"
+                            Margin="10,39,0,0"
+                            VerticalAlignment="Top"
+                            Width="266">
+                        <!--Реализация вывода данных -->
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Margin="5">
+                                    <TextBlock Text="{Binding StringFormat=Фамилия: {0} , 
+                                        Path = Lastname}"
+                                   FontSize="13" />
+                                    <TextBlock Text="{Binding StringFormat=Имя: {0}, 
+                                        Path =Firstname}"
+                                   FontSize="13" />
+                                    <TextBlock Text="{Binding StringFormat=Отчество: {0}, 
+                                        Path = Patronymic}"
+                                   FontSize="13" />
+                                    <TextBlock Text="{Binding StringFormat=Номер_телефона: {0}, 
+                                        Path = PhoneNumber}"
+                                   FontSize="13" />
+                                    <TextBlock Text="{Binding StringFormat=Серия/номер_паспорта: {0}, 
+                                        Path = PassportDetails}"
+                                   FontSize="13" />
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+                    <!--ЛистБокс для вывода существующих счетов-->
+                    <ListBox x:Name="ListAccounts_replenishment" 
+                            HorizontalAlignment="Left"
+                            Margin="294,39,0,65"
+                            Width="282">
+                        <!--Реализация вывода данных счета-->
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Margin="5">
+                                    <TextBlock Text="{Binding StringFormat=Тип_счета: {0} , 
+                                        Path = AccountType}"
+                                   FontSize="13" />
+                                    <TextBlock Text="{Binding StringFormat=Номер_счета: {0}, 
+                                        Path =BankAccountNumber}"
+                                   FontSize="13" />
+                                    <TextBlock Text="{Binding StringFormat=Владелец(пасп.данные): {0},
+                                        Path = PassportDetailsClient}"
+                                   FontSize="13" />
+                                    <TextBlock Text="{Binding StringFormat=Состояние_счета(BYN): {0},
+                                        Path = AmountOfMoney}"
+                                   FontSize="13" />
+                                    <TextBlock Text="{Binding StringFormat=Дата_открытия_счета: {0},
+                                        Path = AccountOpeningDate}"
+                                   FontSize="13" />
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+                    <!--Текстовое окно "Данные клиентов"-->
+                    <TextBlock HorizontalAlignment="Left"
+                               Margin="80,15,0,0"
+                               FontSize="18"
+                               FontStyle="Italic"
+                               FontWeight="UltraLight"
+                               TextWrapping="Wrap"
+                               Text="Данные клиентов"
+                               VerticalAlignment="Top"
+                               Grid.Column="0"/>
+
+                    <!--Текстовое окно "Данные счетов"-->
+                    <TextBlock HorizontalAlignment="Left"
+                               Margin="374,15,0,0"
+                               FontSize="18"
+                               FontStyle="Italic"
+                               FontWeight="UltraLight"
+                               TextWrapping="Wrap"
+                               Text="Данные счетов"
+                               VerticalAlignment="Top"/>
+
+                    <Button Content="Show accounts"
+                            HorizontalAlignment="Left"
+                            Margin="374,309,0,0"
+                            VerticalAlignment="Top"
+                            Width="129"
+                            Click="Button_ShowAccountsReplenishment"/>
+
+                    <!--Текстовое окно "Введите сумму для пополнения счета:"-->
+                    <TextBlock HorizontalAlignment="Left" 
+                               Margin="599,15,0,0" 
+                               FontSize="18"
+                               FontStyle="Italic"
+                               FontWeight="UltraLight"
+                               TextWrapping="Wrap"
+                               Text="Введите сумму для пополнения счета:"
+                               VerticalAlignment="Top"/>
+
+                    <!--Кнопка пополнения счета-->
+                    <Button Content="Refill"
+                            HorizontalAlignment="Left"
+                            Margin="642,138,0,0"
+                            VerticalAlignment="Top"
+                            Width="75" Click="Button_Refill"/>
+
+                    <!--Поле для ввода суммы для пополнения счета-->
+                    <TextBox x:Name="amountOfMoney_replenishment"
+                             HorizontalAlignment="Left"
+                             Height="23"
+                             Margin="618,97,0,0"
+                             TextWrapping="Wrap"
+                             Text="{Binding MyText}"
+                             VerticalAlignment="Top"
+                             Width="120"/>
+                    <TextBlock HorizontalAlignment="Left"
+                               Margin="618,78,0,0"
+                               TextWrapping="Wrap"
+                               Text="Amount of money"
+                               FontSize="14"
+                               VerticalAlignment="Top" Width="120"/>
+                </Grid>
+            </TabItem>
+            <!--Окно Account withdrawall-->
+            <TabItem Width="187"
+                     Height="40"
+                     Header="Account withdrawal">
+                <Grid>
+                    <!--ЛистБокс для вывода существующих клиентов-->
+                    <ListBox x:Name="ListClients_withdrawal" 
+                            HorizontalAlignment="Left"
+                            Height="320"
+                            Margin="10,39,0,0"
+                            VerticalAlignment="Top"
+                            Width="266">
+                        <!--Реализация вывода данных -->
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Margin="5">
+                                    <TextBlock Text="{Binding StringFormat=Фамилия: {0} , 
+                                        Path = Lastname}"
+                                   FontSize="13" />
+                                    <TextBlock Text="{Binding StringFormat=Имя: {0}, 
+                                        Path =Firstname}"
+                                   FontSize="13" />
+                                    <TextBlock Text="{Binding StringFormat=Отчество: {0}, 
+                                        Path = Patronymic}"
+                                   FontSize="13" />
+                                    <TextBlock Text="{Binding StringFormat=Номер_телефона: {0}, 
+                                        Path = PhoneNumber}"
+                                   FontSize="13" />
+                                    <TextBlock Text="{Binding StringFormat=Серия/номер_паспорта: {0}, 
+                                        Path = PassportDetails}"
+                                   FontSize="13" />
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+                    <!--ЛистБокс для вывода существующих счетов-->
+                    <ListBox x:Name="ListAccounts_withdrawal" 
+                            HorizontalAlignment="Left"
+                            Margin="294,39,0,65"
+                            Width="282">
+                        <!--Реализация вывода данных счета-->
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Margin="5">
+                                    <TextBlock Text="{Binding StringFormat=Тип_счета: {0} , 
+                                        Path = AccountType}"
+                                   FontSize="13" />
+                                    <TextBlock Text="{Binding StringFormat=Номер_счета: {0}, 
+                                        Path =BankAccountNumber}"
+                                   FontSize="13" />
+                                    <TextBlock Text="{Binding StringFormat=Владелец(пасп.данные): {0},
+                                        Path = PassportDetailsClient}"
+                                   FontSize="13" />
+                                    <TextBlock Text="{Binding StringFormat=Состояние_счета(BYN): {0},
+                                        Path = AmountOfMoney}"
+                                   FontSize="13" />
+                                    <TextBlock Text="{Binding StringFormat=Дата_открытия_счета: {0},
+                                        Path = AccountOpeningDate}"
+                                   FontSize="13" />
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+                    <!--Текстовое окно "Данные клиентов"-->
+                    <TextBlock HorizontalAlignment="Left"
+                               Margin="80,15,0,0"
+                               FontSize="18"
+                               FontStyle="Italic"
+                               FontWeight="UltraLight"
+                               TextWrapping="Wrap"
+                               Text="Данные клиентов"
+                               VerticalAlignment="Top"
+                               Grid.Column="0"/>
+
+                    <!--Текстовое окно "Данные счетов"-->
+                    <TextBlock HorizontalAlignment="Left"
+                               Margin="374,15,0,0"
+                               FontSize="18"
+                               FontStyle="Italic"
+                               FontWeight="UltraLight"
+                               TextWrapping="Wrap"
+                               Text="Данные счетов"
+                               VerticalAlignment="Top"/>
+
+                    <Button Content="Show accounts"
+                            HorizontalAlignment="Left"
+                            Margin="374,309,0,0"
+                            VerticalAlignment="Top"
+                            Width="129"
+                            Click="Button_ShowAccountsWithdrawal"/>
+
+                    <!--Текстовое окно "Введите сумму для вывода средств:"-->
+                    <TextBlock HorizontalAlignment="Left" 
+                               Margin="599,15,0,0" 
+                               FontSize="18"
+                               FontStyle="Italic"
+                               FontWeight="UltraLight"
+                               TextWrapping="Wrap"
+                               Text="Введите сумму для вывода средств:"
+                               VerticalAlignment="Top"/>
+
+                    <!--Кнопка вывода средств-->
+                    <Button Content="Withdrawal"
+                            HorizontalAlignment="Left"
+                            Margin="618,146,0,0"
+                            VerticalAlignment="Top"
+                            Width="120" Click="Button_Withdrawal"/>
+
+                    <!--Поле для ввода суммы для вывода средств-->
+                    <TextBox x:Name="amountOfMoney_withdrawal"
+                             HorizontalAlignment="Left"
+                             Height="23"
+                             Margin="618,103,0,0"
+                             TextWrapping="Wrap"
+                             Text="{Binding MyText}"
+                             VerticalAlignment="Top"
+                             Width="120"/>
+                    <TextBlock HorizontalAlignment="Left"
+                               Margin="618,79,0,0"
+                               TextWrapping="Wrap"
+                               Text="Amount of money"
+                               FontSize="14"
+                               VerticalAlignment="Top" Width="120"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

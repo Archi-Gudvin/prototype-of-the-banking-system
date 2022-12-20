@@ -1,0 +1,147 @@
+﻿<Window x:Class="WpfBank_App.ManagerAddingClientsData"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfBank_App"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="Adding clients data" 
+        Height="450" Width="800"
+        MinHeight="450" MinWidth="800"
+        MaxHeight="450" MaxWidth="800">
+
+    <Grid>
+        <!--Разметка-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!--Создание блоков с названием поля для заполнения-->
+        <TextBlock Grid.Column="1"
+                   HorizontalAlignment="Left"
+                   Margin="45,44,0,0"
+                   TextWrapping="Wrap"
+                   Text="Lastname"
+                   VerticalAlignment="Top"
+                   />
+
+        <TextBlock Grid.Column="1"
+                   HorizontalAlignment="Left"
+                   Margin="45,82,0,0"
+                   TextWrapping="Wrap"
+                   Text="Firstname"
+                   VerticalAlignment="Top"
+                   />
+
+        <TextBlock Grid.Column="1"
+                   HorizontalAlignment="Left"
+                   Margin="45,123,0,0"
+                   TextWrapping="Wrap"
+                   Text="Patronymic"
+                   VerticalAlignment="Top"
+                   />
+
+        <TextBlock Grid.Column="1"
+                   HorizontalAlignment="Left"
+                   Margin="45,160,0,0"
+                   TextWrapping="Wrap"
+                   Text="Phone number"
+                   VerticalAlignment="Top"
+                   />
+
+        <TextBlock Grid.Column="1"
+                   HorizontalAlignment="Left"
+                   Margin="45,199,0,0"
+                   TextWrapping="Wrap"
+                   Text="Passport details"
+                   VerticalAlignment="Top"
+                   />
+
+        <!--Кнопка добавления клиента в файл-->
+        <Button Content="Add"               
+                Grid.Column="1"
+                HorizontalAlignment="Left"
+                Margin="150,243,0,0"
+                VerticalAlignment="Top"
+                Width="118"
+                Height="23" Click="Button_AddToFile"/>
+
+        <!--Поля для заполнения данными клиента-->
+        <TextBox x:Name="lastname" 
+                 Grid.Column="1"
+                 HorizontalAlignment="Left"
+                 Height="23"
+                 Margin="148,37,0,0"
+                 TextWrapping="Wrap"
+                 Text="{Binding MyText}"    
+                 VerticalAlignment="Top"
+                 Width="120"/>
+
+        <TextBox x:Name="firstname"
+                 Grid.Column="1"
+                 HorizontalAlignment="Left"
+                 Height="23"
+                 Margin="148,75,0,0"
+                 TextWrapping="Wrap"
+                 Text="{Binding MyText}"
+                 VerticalAlignment="Top"
+                 Width="120"
+                 RenderTransformOrigin="0.446,2.682"/>
+
+        <TextBox x:Name="patronymic"
+                 Grid.Column="1"
+                 HorizontalAlignment="Left"
+                 Height="23"
+                 Margin="148,116,0,0"
+                 TextWrapping="Wrap"
+                 Text="{Binding MyText}"
+                 VerticalAlignment="Top"
+                 Width="120"/>
+
+        <TextBox x:Name="phoneNumber"
+                 Grid.Column="1"
+                 HorizontalAlignment="Left" 
+                 Height="23" Margin="150,153,0,0"
+                 TextWrapping="Wrap" 
+                 Text="{Binding MyText}" 
+                 VerticalAlignment="Top"
+                 Width="120"/>
+
+        <TextBox x:Name="passportDetails"
+                 Grid.Column="1" 
+                 HorizontalAlignment="Left"
+                 Height="23"
+                 Margin="148,192,0,0"
+                 TextWrapping="Wrap"
+                 Text="{Binding MyText}"
+                 VerticalAlignment="Top"
+                 Width="120"/>
+        <!--ЛистБокс для вывода существующих клиентов-->
+        <ListBox x:Name="ListAddingClients" 
+                 HorizontalAlignment="Left"
+                 Height="399"
+                 Margin="10,10,0,0"
+                 VerticalAlignment="Top"
+                 Width="376">
+            <!--Реализация вывода данных -->
+        <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Margin="5">
+                        <TextBlock Text="{Binding StringFormat=Фамилия: {0} , Path = Lastname}"
+                                   FontSize="13" />
+                        <TextBlock Text="{Binding StringFormat=Имя: {0}, Path =Firstname}"
+                                   FontSize="13" />
+                        <TextBlock Text="{Binding StringFormat=Отчество: {0}, Path = Patronymic}"
+                                   FontSize="13" />
+                        <TextBlock Text="{Binding StringFormat=Номер_телефона: {0}, Path = PhoneNumber}"
+                                   FontSize="13" />
+                        <TextBlock Text="{Binding StringFormat=Серия/номер_паспорта: {0}, Path = PassportDetails}"
+                                   FontSize="13" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</Window>
